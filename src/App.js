@@ -5,7 +5,7 @@ import Images from "./components/Images"
 function App() {
   return (
     <div className="App">
-  <div>
+  <div className = "app-container">
     <Images/>
   </div>
     </div>

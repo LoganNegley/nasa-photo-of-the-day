@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import ImageCard from "./ImageCard";
+import Header from "./Header";
 
 
 
@@ -24,7 +25,8 @@ axios.get("https://api.nasa.gov/planetary/apod?api_key=VhCUAbfQp5bdWSSgDKedirH0J
 
     return (
       <div className= "body-container">
-        <ImageCard imgUrl = "photoData.url"/>
+        <Header date ={photoData.date}/>
+        <ImageCard imgUrl = {photoData.url}/>
       </div>
 
     );
