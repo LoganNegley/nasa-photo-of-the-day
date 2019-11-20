@@ -4,13 +4,13 @@ import React from "react";
 
 
 
-function CardOfTheDay() {
+function ImageCard() {
     return (
       <div className="container">  
-          
+
       </div>
     );
   }
   
-  export default CardOfTheDay;
+  export default ImageCard;
   
