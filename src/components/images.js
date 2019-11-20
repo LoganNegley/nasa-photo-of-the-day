@@ -15,7 +15,6 @@ axios.get("https://api.nasa.gov/planetary/apod?api_key=VhCUAbfQp5bdWSSgDKedirH0J
 .then(response => {
   console.log(response);
   setPhotoData(response.data);
-  console.log(photoData);
 })
 },[]);
 
@@ -23,7 +22,7 @@ axios.get("https://api.nasa.gov/planetary/apod?api_key=VhCUAbfQp5bdWSSgDKedirH0J
 
 
     return (
-      <div className= "container">
+      <div className= "body-container">
 
       </div>
 
