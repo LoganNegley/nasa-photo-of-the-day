@@ -1,10 +1,16 @@
-function Card() {
+import React from "react";
+
+
+
+
+
+function CardOfTheDay() {
     return (
-      <div className="App">
-        
+      <div className="container">  
+          
       </div>
     );
   }
   
-  export default App;
+  export default CardOfTheDay;
   
