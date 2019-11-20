@@ -3,7 +3,7 @@ import React from "react";
 
 
 
-function ImageCard(props) {
+function Image(props) {
     return (
       <div className="image-container">  
       <img className ="space-image" alt="Space Image Of The Day" src ={props.imgUrl}/>
@@ -11,5 +11,5 @@ function ImageCard(props) {
     );
   }
   
-  export default ImageCard;
+  export default Image;
   

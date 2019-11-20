@@ -1,13 +1,13 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import ImageCard from "./ImageCard";
+import Image from "./Image";
 import Header from "./Header";
 
 
 
 
 
-function Images() {
+function Card() {
 
   const [photoData, setPhotoData] = useState(""); 
 
@@ -24,13 +24,13 @@ axios.get("https://api.nasa.gov/planetary/apod?api_key=VhCUAbfQp5bdWSSgDKedirH0J
 
 
     return (
-      <div className= "body-container">
+      <div className= "card-container">
         <Header date ={photoData.date}/>
-        <ImageCard imgUrl = {photoData.url}/>
+        <Image imgUrl = {photoData.url}/>
       </div>
 
     );
   }
   
-  export default Images;
+  export default Card;
   

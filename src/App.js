@@ -1,13 +1,12 @@
 import React from "react";
 import "./App.css";
-import Images from "./components/Images"
+import Card from "./components/Card"
 
 function App() {
   return (
     <div className="App">
-  <div className = "app-container">
-    <Images/>
-  </div>
+    <Card/>
+  
     </div>
   );
 }
